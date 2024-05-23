@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Mas_Regression]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.master.bulkscripts.DataProviderCarrierScript">
+        <methods>
+          <include name="ReadV"/>
+          <include name="LogOut"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.bulkscripts.DataProviderCarrierScript -->
+      <class name="com.master.testscripts.CarrierScript">
+        <methods>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- com.master.testscripts.CarrierScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Mas_Regression] -->

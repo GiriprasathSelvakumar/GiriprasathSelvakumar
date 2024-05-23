@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.master.testscripts.CfsScript">
+        <methods>
+          <include name="Add"/>
+          <include name="LogOut"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.testscripts.CfsScript -->
+      <class name="com.master.testscripts.PartnerScript">
+        <methods>
+          <include name="LogOut"/>
+          <include name="PartnerCreate"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.testscripts.PartnerScript -->
+      <class name="com.master.testscripts.RolesScript">
+        <methods>
+          <include name="PrepareCarrierData"/>
+          <include name="LogOut"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.testscripts.RolesScript -->
+      <class name="com.master.testscripts.CarrierScript">
+        <methods>
+          <include name="LogOut"/>
+          <include name="LoginProcess"/>
+          <include name="PrepareCarrierData"/>
+        </methods>
+      </class> <!-- com.master.testscripts.CarrierScript -->
+      <class name="com.master.testscripts.VehicleScript">
+        <methods>
+          <include name="VehicleCreate"/>
+          <include name="LogOut"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.testscripts.VehicleScript -->
+      <class name="com.master.testscripts.ClustersScript">
+        <methods>
+          <include name="LogOut"/>
+          <include name="add"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.testscripts.ClustersScript -->
+      <class name="com.master.testscripts.ChargesScript">
+        <methods>
+          <include name="LogOut"/>
+          <include name="AddCharges"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.testscripts.ChargesScript -->
+      <class name="com.master.testscripts.EmptyYardScript">
+        <methods>
+          <include name="LogOut"/>
+          <include name="emptyYardCreate"/>
+          <include name="LoginProcess"/>
+        </methods>
+      </class> <!-- com.master.testscripts.EmptyYardScript -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

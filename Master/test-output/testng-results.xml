@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-29T14:42:14 IST" name="Suite" finished-at="2023-11-29T14:43:54 IST" duration-ms="100012">
+    <groups>
+    </groups>
+    <test started-at="2023-11-29T14:42:14 IST" name="Test" finished-at="2023-11-29T14:43:54 IST" duration-ms="100012">
+      <class name="com.master.testscripts.PartnerScript">
+        <test-method is-config="true" signature="LoginProcess()[pri:0, instance:com.master.testscripts.PartnerScript@2cf3d63b]" started-at="2023-11-29T14:42:04 IST" name="LoginProcess" finished-at="2023-11-29T14:42:14 IST" duration-ms="9717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginProcess -->
+        <test-method signature="PartnerCreate()[pri:0, instance:com.master.testscripts.PartnerScript@2cf3d63b]" started-at="2023-11-29T14:42:14 IST" name="PartnerCreate" finished-at="2023-11-29T14:43:54 IST" duration-ms="99966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PartnerCreate -->
+        <test-method is-config="true" signature="LogOut()[pri:0, instance:com.master.testscripts.PartnerScript@2cf3d63b]" started-at="2023-11-29T14:43:54 IST" name="LogOut" finished-at="2023-11-29T14:43:56 IST" duration-ms="2271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- com.master.testscripts.PartnerScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
